@@ -1,0 +1,78 @@
+table,
+p,
+.summary {
+  max-width: 76ch;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: #2f2f2f;
+}
+
+header {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+header div > img {
+  width: 100px;
+  height: auto;
+  margin-top: 1rem;
+}
+header > h2 {
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #7acfd6;
+  transition: all 200ms;
+}
+
+h1 {
+  text-align: center;
+}
+
+li a:hover {
+  color: #e0474c;
+}
+
+a:visited {
+  color: #7acfd6;
+}
+
+ul {
+  list-style: none;
+  max-width: 400px;
+}
+
+th:first-of-type {
+  padding-right: 1rem;
+}
+
+#list-title {
+  text-decoration: underline;
+  max-width: 400px;
+}
+
+.notes {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.summary {
+  width: 76ch;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  header .img-container {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
